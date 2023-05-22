@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*头部*/
+header {
+  width: 100%;
+  height: 76px;
+  border-bottom: 1px solid #cecfcf;
+  box-shadow: 0 0 5px #cecfcf inset;
+  /*导航*/
+}
+header .typearea {
+  width: 1000px;
+  height: 100%;
+  margin: 0px auto;
+}
+header .typearea .logo {
+  padding-top: 13px;
+  display: inline-block;
+}
+header .typearea .logo a {
+  list-style: none;
+}
+header .typearea .logo a img {
+  width: 132px;
+}
+header .typearea nav {
+  display: inline-block;
+  padding: 28px 0px 0px 40px;
+  width: 450px;
+  height: 32px;
+}
+header .typearea nav ul {
+  list-style: none;
+}
+header .typearea nav ul li {
+  float: left;
+  width: 40px;
+  height: 32px;
+  padding: 0px 25px;
+}
+header .typearea nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+}
+header .typearea nav ul li a:hover {
+  color: #fe5341;
+}
+header .typearea nav ul li:nth-of-type(1) a {
+  color: #fe5341;
+}
+header .typearea .register {
+  float: right;
+  display: block;
+  width: 50px;
+  height: 30px;
+  border: 1px solid #fe5341;
+  text-decoration: none;
+  color: #fe5341;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 23px;
+  border-radius: 3px;
+  transition: all 0.15s linear;
+}
+header .typearea .register:hover {
+  background-color: #fe5341;
+  color: white;
+}
+header .typearea .search {
+  background: url(../img/icon/search.png) 0px 0px no-repeat;
+  float: right;
+  transition: transform 0.08s ease;
+  width: 42px;
+  height: 40px;
+  line-height: 999;
+  overflow: hidden;
+  margin-top: 28px;
+  margin-right: 15px;
+}
+/*banner图+过度*/
