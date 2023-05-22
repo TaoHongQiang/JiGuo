@@ -309,98 +309,196 @@ header {
     color: #474747;
     font-size: 14px;
     background-color: #F7F7F7;
-}
 
-.centre {
-    width: 1000px;
-    height: 100%;
-    margin: 0px auto;
 
-    /*分类标题*/
-    .classifyTitle {
-        font-size: 20px;
-        padding: 18px 0px 16px 0px;
-        font-weight: 600;
-
-        a {
-            float: right;
-            font-weight: 400;
-            text-decoration: none;
-            color: #fe5341;
-            font-size: 14px;
-            padding-right: 20px;
-            background: url(../img/icon/readMore.png) 60px 4px no-repeat;
-        }
-    }
-
-    /*内容*/
-    .re-ul {
+    .centre {
         width: 1000px;
-        height: 506px;
-        padding-bottom: 20px;
-        background-color: #3ae1ff;
-        list-style: none;
-        color: #474747;
+        height: 100%;
+        margin: 0px auto;
 
-        .re-li {
-            width: 220px;
-            height: 231px;
-            line-height: 21px;
-            margin: 0 37px 20px 0;
-            float: left;
-            border: 1px solid #e6e9e9;
-            border-radius: 6px;
-            background-color: #fff;
+        /*分类标题*/
+        .classifyTitle {
+            font-size: 20px;
+            padding: 18px 0px 16px 0px;
+            font-weight: 600;
 
             a {
+                float: right;
+                font-weight: 400;
                 text-decoration: none;
-                color: #474747;
+                color: #fe5341;
+                font-size: 14px;
+                padding-right: 20px;
+                background: url(../img/icon/readMore.png) 60px 4px no-repeat;
+            }
+        }
 
-                img {
-                    width: 220px;
-                    height: 130px;
-                }
+        /*内容*/
+        .re-ul {
+            width: 1000px;
+            height: 506px;
+            padding-bottom: 20px;
+            list-style: none;
+            color: #474747;
 
-                .re-dv {
-                    width: 200px;
-                    height: 93px;
-                    padding: 7px 10px 10px 10px;
+            .re-li {
+                width: 220px;
+                height: 231px;
+                line-height: 21px;
+                margin: 0 37px 20px 0;
+                float: left;
+                border: 1px solid #e6e9e9;
+                border-radius: 6px;
+                background-color: #fff;
 
-                    .re-sn {
-                        width: 200px;
-                        height: 22px;
-                        padding: 13px 0px;
-                        color: #a3a3a3;
-                        font-size: 12px;
+                a {
+                    text-decoration: none;
+                    color: #474747;
 
-                        .box {
-                            float: right;
-
-                            .re-sp2 {
-                                padding-left: 14px;
-                                margin-left: 3px;
-                                background: url(../img/icon/zan.png) 0px 2px no-repeat;
-                            }
-
-                            .re-sp3 {
-                                padding-left: 14px;
-                                margin-left: 3px;
-                                background: url(../img/icon/reply.png) 0px 2px no-repeat;
-                            }
-                        }
+                    img {
+                        width: 220px;
+                        height: 130px;
                     }
 
-                }
+                    .re-dv {
+                        width: 200px;
+                        height: 93px;
+                        padding: 7px 10px 10px 10px;
 
+                        .re-sn {
+                            width: 200px;
+                            height: 22px;
+                            padding: 13px 0px;
+                            color: #a3a3a3;
+                            font-size: 12px;
+
+                            .box {
+                                float: right;
+
+                                .re-sp2 {
+                                    padding-left: 14px;
+                                    margin-left: 3px;
+                                    background: url(../img/icon/zan.png) 0px 2px no-repeat;
+                                }
+
+                                .re-sp3 {
+                                    padding-left: 14px;
+                                    margin-left: 3px;
+                                    background: url(../img/icon/reply.png) 0px 2px no-repeat;
+                                }
+                            }
+                        }
+
+                    }
+
+
+                }
 
             }
 
+            .re-li:nth-of-type(4),
+            .re-li:nth-of-type(8) {
+                margin-right: 0px;
+            }
+
+        }
+    }
+}
+
+/*导购精选*/
+.shoppingguide {
+    width: 100%;
+    height: 348px;
+    color: #474747;
+    font-size: 14px;
+
+    .centre {
+        width: 1000px;
+        height: 100%;
+        margin: 0px auto;
+
+        /*分类标题*/
+        .classifyTitle {
+            font-size: 20px;
+            padding: 18px 0px 16px 0px;
+            font-weight: 600;
+
+            a {
+                float: right;
+                font-weight: 400;
+                text-decoration: none;
+                color: #fe5341;
+                font-size: 14px;
+                padding-right: 20px;
+                background: url(../img/icon/readMore.png) 60px 4px no-repeat;
+            }
         }
 
-        .re-li:nth-of-type(4),
-        .re-li:nth-of-type(8) {
-            margin-right: 0px;
-        }
+        .se-ul {
+            width: 100%;
+            height: 262px;
+            padding-bottom: 20px;
+            list-style: none;
 
+            .se-li {
+                width: 220px;
+                height: 225px;
+                line-height: 21px;
+                margin: 0 37px 35px 0;
+                float: left;
+                border: 1px solid #e6e9e9;
+                border-radius: 6px;
+                background-color: #fff;
+
+                a {
+                    text-decoration: none;
+                    color: #474747;
+
+                    img {
+                        width: 220px;
+                        height: 130px;
+                    }
+
+                    .se-dv {
+                        width: 200px;
+                        height: 93px;
+                        padding: 7px 10px 10px 10px;
+                        background: url(../img/icon/listbg.jpg) no-repeat left bottom;
+                        background-size: 221px 19px;
+
+                        .se-sn {
+                            width: 200px;
+                            height: 22px;
+                            padding: 13px 0px;
+                            color: #a3a3a3;
+                            font-size: 12px;
+
+                            .box {
+                                float: right;
+
+                                .se-sp2 {
+                                    padding-left: 14px;
+                                    margin-left: 3px;
+                                    background: url(../img/icon/zan.png) 0px 2px no-repeat;
+                                }
+
+                                .se-sp3 {
+                                    padding-left: 14px;
+                                    margin-left: 3px;
+                                    background: url(../img/icon/reply.png) 0px 2px no-repeat;
+                                }
+                            }
+                        }
+
+                    }
+
+
+                }
+            }
+
+            .se-li:nth-of-type(4) {
+                margin-right: 0px;
+            }
+        }
     }
 }
