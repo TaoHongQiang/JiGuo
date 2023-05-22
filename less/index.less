@@ -105,12 +105,21 @@ header {
     position: relative;
 
     .huanxiang {
-        width: 1000px;
         height: 217px;
         padding-top: 35px;
         color: white;
         margin: 0px auto;
         text-align: right;
+        position: absolute;
+        right: 451px;
+        animation: rotateIn 1s ease both;
+
+        //动画
+        @keyframes rotateIn {
+            0% {
+                transform: translate(800px, -800px);
+            }
+        }
 
         h2 {
             font-size: 34px;
@@ -152,7 +161,7 @@ header {
     }
 }
 
-// 热门试用
+/*热门试用*/
 .tryOut {
     width: 1000px;
     height: 381px;
@@ -287,6 +296,109 @@ header {
         }
 
         .item:nth-of-type(4) {
+            margin-right: 0px;
+        }
+
+    }
+}
+
+/*报告精选*/
+.report {
+    width: 100%;
+    height: 592px;
+    color: #474747;
+    font-size: 14px;
+    background-color: #F7F7F7;
+}
+
+.centre {
+    width: 1000px;
+    height: 100%;
+    margin: 0px auto;
+
+    /*分类标题*/
+    .classifyTitle {
+        font-size: 20px;
+        padding: 18px 0px 16px 0px;
+        font-weight: 600;
+
+        a {
+            float: right;
+            font-weight: 400;
+            text-decoration: none;
+            color: #fe5341;
+            font-size: 14px;
+            padding-right: 20px;
+            background: url(../img/icon/readMore.png) 60px 4px no-repeat;
+        }
+    }
+
+    /*内容*/
+    .re-ul {
+        width: 1000px;
+        height: 506px;
+        padding-bottom: 20px;
+        background-color: #3ae1ff;
+        list-style: none;
+        color: #474747;
+
+        .re-li {
+            width: 220px;
+            height: 231px;
+            line-height: 21px;
+            margin: 0 37px 20px 0;
+            float: left;
+            border: 1px solid #e6e9e9;
+            border-radius: 6px;
+            background-color: #fff;
+
+            a {
+                text-decoration: none;
+                color: #474747;
+
+                img {
+                    width: 220px;
+                    height: 130px;
+                }
+
+                .re-dv {
+                    width: 200px;
+                    height: 93px;
+                    padding: 7px 10px 10px 10px;
+
+                    .re-sn {
+                        width: 200px;
+                        height: 22px;
+                        padding: 13px 0px;
+                        color: #a3a3a3;
+                        font-size: 12px;
+
+                        .box {
+                            float: right;
+
+                            .re-sp2 {
+                                padding-left: 14px;
+                                margin-left: 3px;
+                                background: url(../img/icon/zan.png) 0px 2px no-repeat;
+                            }
+
+                            .re-sp3 {
+                                padding-left: 14px;
+                                margin-left: 3px;
+                                background: url(../img/icon/reply.png) 0px 2px no-repeat;
+                            }
+                        }
+                    }
+
+                }
+
+
+            }
+
+        }
+
+        .re-li:nth-of-type(4),
+        .re-li:nth-of-type(8) {
             margin-right: 0px;
         }
 
