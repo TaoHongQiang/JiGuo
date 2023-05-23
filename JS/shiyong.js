@@ -28,6 +28,32 @@ for (var i = 0; i < a.length; i++) {
     }
 }
 //  排他法
+// 查找显示隐藏对应的div
+var ag = document.getElementsByClassName('top4one')
+// 1.找到点击的  给每一个加一个下标
+var dianji = document.getElementsByClassName('af')
+for (var i = 0; i < dianji.length; i++) {
+
+    dianji[i].setAttribute('index', i);
+
+    // 当前a被点击时
+    dianji[i].onclick = function () {
+        //拿到被点击a的index 值 0  或者1 
+        var index = this.getAttribute('index');
+        console.log(index);
+        // 使用排他法  选中的内容 添加一个active属性 未选中的去除class属性
+        for (var j = 0; j < dianji.length; j++) {
+            dianji[j].className = 'af';
+            dianji[index].className = 'af one';
+        }
+
+        // 再次使用排他法  把对应a 对应的html进行显示隐藏
+        for (var k = 0; k < ag.length; k++) {
+            ag[k].style.display = 'none';
+            ag[index].style.display = 'block';
+        }
+    }
+}
 
 
 
@@ -75,6 +101,8 @@ ajax_.onreadystatechange = function () {
     }
     items.innerHTML = str
 }
+// -----------------------------
+
 // ------------体验师--------------------------
 //请求数据
 // 创建对象
