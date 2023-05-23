@@ -518,3 +518,66 @@ header .typearea .search {
   padding-left: 24px;
   background: url(../img/icon/loading-icon.gif) 0px 0px no-repeat;
 }
+/*底部*/
+footer {
+  width: 100%;
+  height: 305.7px;
+  padding: 40px 0px 15px 0px;
+  background-color: #505050;
+  color: #a3a3a3;
+}
+footer .box2 {
+  width: 1000px;
+  height: 100%;
+  margin: 0px auto;
+}
+footer .box2 .text2 {
+  width: 100%;
+  height: 205px;
+}
+footer .box2 .text2 dl {
+  float: left;
+  font-size: 13px;
+  padding-left: 22px;
+  line-height: 20px;
+}
+footer .box2 .text2 dl dt {
+  color: white;
+  font-size: 16px;
+  padding-bottom: 25px;
+}
+footer .box2 .text2 dl dd a {
+  text-decoration: none;
+  color: #a3a3a3;
+}
+footer .box2 .text2 dl:nth-of-type(1) {
+  padding-left: 0px;
+}
+footer .box2 .text2 dl:nth-of-type(2) {
+  width: 140px;
+}
+footer .box2 .text2 dl:nth-of-type(2) dd:nth-of-type(2) {
+  margin-top: 13px;
+}
+footer .box2 .text2 dl:nth-of-type(3) {
+  width: 100px;
+}
+footer .box2 .text2 dl:nth-of-type(4) {
+  width: 140px;
+}
+footer .box2 .text2 dl:nth-of-type(4) dd a {
+  width: 68px;
+  display: inline-block;
+}
+footer .box2 .text2 dl:nth-of-type(5) {
+  width: 148px;
+}
+footer .box2 .text2 dl:nth-of-type(6) {
+  width: 180px;
+}
+footer .box2 .foot {
+  height: 20.7px;
+  padding-top: 80px;
+  text-align: center;
+  font-size: 13px;
+}
