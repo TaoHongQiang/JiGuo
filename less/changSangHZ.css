@@ -80,11 +80,12 @@ header .typearea .search {
 /*内容*/
 main {
   width: 1000px;
-  height: 1020.7px;
-  margin: 50px auto;
+  height: 2424.59px;
+  margin: 0px auto;
   position: relative;
+  margin-top: 50px;
   /*帮助中心*/
-  /*免费试用*/
+  /*商务合作*/
 }
 main .box_1 {
   width: 270px;
@@ -143,7 +144,7 @@ main .box_1 .box_1_1 dl:nth-of-type(2) dd {
 }
 main .box_2 {
   width: 700px;
-  height: 1020.7px;
+  height: 2374.59px;
   float: right;
   background-color: #F3F3F3;
   border-radius: 8px;
@@ -172,6 +173,15 @@ main .box_2 .box_2_1 .text3 h3 {
 }
 main .box_2 .box_2_1 .text3 p {
   line-height: 28px;
+}
+main .box_2 .box_2_1 .text3 h5 {
+  font-size: 20px;
+  padding: 18px 0 16px;
+  font-weight: bold;
+  color: #474747;
+}
+main .box_2 .box_2_1 .text3 .padl25 {
+  padding-left: 25px;
 }
 /*底部*/
 footer {
