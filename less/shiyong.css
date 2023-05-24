@@ -52,7 +52,7 @@ header .typearea nav ul li a {
 header .typearea nav ul li a:hover {
   color: #fe5341;
 }
-header .typearea nav ul li:nth-of-type(1) a {
+header .typearea nav ul li:nth-of-type(4) a {
   color: #fe5341;
 }
 header .typearea .register {
