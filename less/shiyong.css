@@ -1,0 +1,131 @@
+/*清除默认样式*/
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+/*导航*/
+header {
+  width: 100%;
+  height: 80px;
+  box-shadow: 0 0 5px #cecfcf inset;
+}
+header .top1 {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+}
+header .top1 .top1left {
+  /*左边*/
+  width: 130px;
+  height: 100%;
+  float: left;
+}
+header .top1 .top1left img {
+  width: 100%;
+  padding-top: 15px;
+}
+header .top1 .top1center {
+  /*中间*/
+  height: 80px;
+  float: left;
+  padding-top: 35px;
+  margin-left: 60px;
+  box-sizing: border-box;
+}
+header .top1 .top1center ul {
+  list-style: none;
+}
+header .top1 .top1center ul li {
+  float: left;
+  padding: 0 25px;
+}
+header .top1 .top1center ul li a {
+  font-size: 20px;
+  color: black;
+}
+header .top1 .top1center ul li:hover a {
+  color: red;
+}
+header .top1 .top1center ul li:nth-of-type(4) a {
+  color: red;
+}
+header .top1 .top1right {
+  height: 80px;
+  float: right;
+}
+header .top1 .top1right a {
+  line-height: 80px;
+}
+header .top1 .top1right a:nth-of-type(1) {
+  margin-right: 25px;
+  margin-top: 10px;
+  float: left;
+}
+header .top1 .top1right a:nth-of-type(1):hover img {
+  transform: scale(1.2, 1.2);
+}
+header .top1 .top1right a:nth-of-type(2) {
+  padding: 5px 10px;
+  border: 1px solid red;
+  border-radius: 5px;
+  color: #f43838;
+}
+header .top1 .top1right a:nth-of-type(2):hover {
+  background-color: red;
+  color: white;
+}
+/*banner*/
+.top2 {
+  width: 60%;
+  height: 170px;
+  margin: 0 auto;
+}
+.top2 h1 {
+  padding: 30px 0;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 400;
+}
+.top2 .top2button {
+  width: 100%;
+  text-align: center;
+}
+.top2 .top2button a {
+  width: 165px;
+  height: 42px;
+  color: grey;
+  font-size: 18px;
+  display: inline-block;
+}
+.top2 .top2button .one {
+  color: red;
+  border-bottom: 4px #fe5431 solid;
+  padding-bottom: 8px;
+}
+/*下面*/
+.top3 {
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.top3 .top3quanbu {
+  width: 60%;
+  height: 50px;
+  margin: 0 auto;
+}
+.top3 .top3quanbu a {
+  text-align: center;
+  width: 165px;
+  height: 50px;
+  display: inline-block;
+  line-height: 50px;
+  font-size: 18px;
+  color: grey;
+}
+.top3 .top3quanbu .one {
+  color: black;
+}
