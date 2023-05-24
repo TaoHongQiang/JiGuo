@@ -95,13 +95,13 @@ h1 {
   font-size: 40px;
   font-weight: 400;
   text-align: center;
-  padding: 30px 0 34px ;
+  padding: 30px 0 34px;
   width: 1000px;
 }
 nav {
   text-align: center;
   color: #a2a2a2;
-  display: block ;
+  display: block;
 }
 nav > .hit {
   display: inline-block;
@@ -197,7 +197,7 @@ main:nth-of-type(1) {
 .category {
   width: 60%;
   margin: 0 auto;
-  padding: 20px ;
+  padding: 20px;
 }
 .category .sort {
   background-color: #ffffff;
@@ -224,11 +224,11 @@ main:nth-of-type(1) {
 .category .sort .imgs .imgss {
   width: 150px;
   height: 130px;
-  margin-top: 15px ;
-  margin-left: 10px ;
+  margin-top: 15px;
+  margin-left: 10px;
 }
 .category .sort .imgs .imgss p {
-  margin-top: 13px ;
+  margin-top: 13px;
   text-align: center;
   font-size: 14px;
   color: #A3A3A3;
@@ -242,67 +242,92 @@ main:nth-of-type(1) {
 .category .sorttext p {
   width: 145px;
   text-align: center;
-  margin: 10px 8px ;
+  margin: 10px 8px;
   font-size: 14px;
 }
 .category .sorttext p a {
   color: #A3A3A3;
 }
+/*底部*/
 footer {
   width: 100%;
-  height: 305px;
+  height: 305.7px;
+  padding: 40px 0px 15px 0px;
   background-color: #505050;
-  padding: 40px 0 15px;
+  color: #a3a3a3;
 }
-footer > div {
-  width: 60%;
-  height: 280px;
-  margin: 0 auto;
+footer .box2 {
+  width: 1000px;
+  height: 100%;
+  margin: 0px auto;
 }
-footer > div > div {
-  padding: 20px auto;
-  box-sizing: border-box;
-  position: absolute;
+footer .box2 .text2 {
+  width: 100%;
+  height: 205px;
 }
-footer > div > div > dl {
+footer .box2 .text2 dl {
   float: left;
   font-size: 13px;
-  padding-left: 20px;
+  padding-left: 22px;
   line-height: 20px;
 }
-footer > div > p {
-  text-align: center;
-  padding-top: 80px;
-  font-size: 13px;
-  position: relative;
-  bottom: -215px;
-  color: #a2a2a2;
-}
-footer > div > div > dl > dt {
+footer .box2 .text2 dl dt {
+  color: white;
   font-size: 16px;
   padding-bottom: 25px;
-  color: white;
 }
-footer > div > div > dl:nth-of-type(2) {
+footer .box2 .text2 dl dd a {
+  text-decoration: none;
+  color: #a3a3a3;
+}
+footer .box2 .text2 dl:nth-of-type(1) {
+  padding-left: 0px;
+}
+footer .box2 .text2 dl:nth-of-type(2) {
   width: 140px;
 }
-footer > div > div > dl:nth-of-type(3) {
+footer .box2 .text2 dl:nth-of-type(2) dd:nth-of-type(2) {
+  margin-top: 13px;
+}
+footer .box2 .text2 dl:nth-of-type(3) {
   width: 100px;
 }
-footer > div > div > dl:nth-of-type(4) {
+footer .box2 .text2 dl:nth-of-type(4) {
   width: 140px;
 }
-footer > div > div > dl:nth-of-type(5) {
+footer .box2 .text2 dl:nth-of-type(4) dd a {
+  width: 68px;
+  display: inline-block;
+}
+footer .box2 .text2 dl:nth-of-type(5) {
   width: 148px;
 }
-footer > div > div > dl:nth-of-type(6) {
+footer .box2 .text2 dl:nth-of-type(6) {
   width: 180px;
 }
-footer > div > div > dl dd,
-dd > a {
-  color: #b3b3b3;
+footer .box2 .foot {
+  height: 20.7px;
+  padding-top: 80px;
+  text-align: center;
+  font-size: 13px;
 }
-footer > div > div > dl > dd > a {
+/*回到顶部*/
+.return {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  position: fixed;
+  bottom: 50px;
+  right: 350px;
+  overflow: hidden;
+}
+.return a {
   display: inline-block;
-  width: 65px;
+  width: 100%;
+  height: 100%;
+  background: url(../img/icon/back.png) no-repeat #e8e8e8 center center;
+  transition: all 0.1s ease-in;
+}
+.return a:hover {
+  background-color: #C6C6C6;
 }
